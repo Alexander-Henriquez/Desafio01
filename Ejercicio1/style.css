@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a214c;
+    margin: 20px;
+    color: #ffffff;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffc400;
+}
+
+form {
+    background-color: #173377;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+.note-container {
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #1f4788;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    width: calc(50% - 10px);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+.result-container {
+    margin: 0 auto; /* Centra el contenedor de resultados */
+    text-align: center; /* Alinea el texto al centro */
+    padding: 20px;
+    background-color: #1f4788;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    width: 100%; /* Haz que el contenedor ocupe el ancho completo */
+    box-sizing: border-box;
+    margin-top: 20px; /* Añade un espacio superior */
+}
+
+.note-container .cycle-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffc400;
+}
+
+.input-container .note-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    color: #ffc400;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 40px;
+    padding: 5px;
+    border: 1px solid #ffc400;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.volver, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc400;
+    color: #0a214c;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.volver:hover, input[type="submit"]:hover {
+    background-color: #ffeb3b;
+}
