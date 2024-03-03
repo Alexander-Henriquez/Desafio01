@@ -34,15 +34,15 @@ form {
 }
 
 .result-container {
-    margin: 0 auto; /* Centra el contenedor de resultados */
-    text-align: center; /* Alinea el texto al centro */
+    margin: 0 auto;
+    text-align: center;
     padding: 20px;
     background-color: #1f4788;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    width: 100%; /* Haz que el contenedor ocupe el ancho completo */
+    width: 100%;
     box-sizing: border-box;
-    margin-top: 20px; /* Añade un espacio superior */
+    margin-top: 20px;
 }
 
 .note-container .cycle-title {
